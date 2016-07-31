@@ -1,0 +1,93 @@
+@@font-face {
+  font-family: Corporative;
+  src: url(../fonts/Corporative/CorporativeMedium.otf);
+}
+
+*{margin: 0;
+  padding: 0;
+}
+nav {
+  position: fixed;
+  top: 50px;
+  left: 70px;
+  z-index: 10;
+}
+nav a {
+  font-family: Corporative;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 9px;
+}
+div {
+  position: relative;
+}
+section{
+  width: 100%;
+  height: 300px;
+}
+div input {
+  float: left;
+  margin-top: 80px;
+  margin-left: 80px;
+}
+#cero {
+  background: url("../img/logotipo.gif") center center fixed;
+  background-size: cover;
+  padding-top: 30px;
+  height: 850px;
+}
+#uno{
+  background: url("../img/01.gif") center center fixed;
+  background-size: cover;
+  padding-top: 30px;
+  height: 850px;
+}
+#dos{
+  background: url("../img/letraR1.gif") center center fixed;
+  height:850px;
+  background-size: cover;
+
+}
+#tres {
+  background: url("../img/letrai.gif") center center fixed;
+  background-size: cover;
+  height: 850px;
+
+}
+
+#cuatro {
+  background: url("../img/letrag.gif") center center fixed;
+  height:850px;
+  background-size: cover;
+
+}
+#cinco {
+  background: url("../img/letraa.gif") center center fixed;
+  height:850px;
+  background-size: cover;
+}
+#seis {
+  background: url("../img/space2.gif") center center fixed;
+  height:850px;
+  background-size: cover;
+}
+#siete {
+  background: url("../img/letraii.gif") center center fixed;
+  height:850px;
+  background-size: cover;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+#prueba {
+  height: 3000px;
+  z-index: 20;
+
+}
