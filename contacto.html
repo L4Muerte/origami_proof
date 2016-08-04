@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto - Origami</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -9,11 +10,55 @@
   <div>
     <nav>
       <a href="index.html">Home</a>
-      <a href="">Portafolio</a>
+      <a href="portafolio.html">Portafolio</a>
       <a href="">Us</a>
       <a href="contacto.html">Contact</a>
       <a href="">Blog</a>
     </nav>
   </div>
+  <section id="contact_section" class="container">
+    <article class="Contactanos">
+      <h2>Contáctanos</h2>
+      <div>
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <p>6381 4539</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <p>contacto@origamicreativa.com</p>
+      </div>
+      <div>
+        <p> <i class="fa fa-map-marker" aria-hidden="true"></i>Av. Nuevo León No. 253 Int. 505, Col. Escandón, C.P 11800. México CDMX</p>
+      </div>
+    </article>
+    <article class="mandanos un mail">
+
+    </article>
+  </section>
+  <section id="map"></section>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="https://use.fontawesome.com/1926ed4d40.js"></script>
+  <script>
+      function initMap() {
+        var myLatLng = {lat: 19.4028468, lng: -99.17133109999997};
+
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: myLatLng,
+          scrollwheel: false,
+          zoom: 16
+        });
+
+        // Create a marker and set its position.
+        var marker = new google.maps.Marker({
+          map: map,
+          position: myLatLng,
+          title: 'Origami Creativa!'
+        });
+      }
+
+    </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmSqI3jkxrnGFcwbof954WPyVAb8NF_ms&callback=initMap"
+          async defer></script>
 </body>
 </html>
