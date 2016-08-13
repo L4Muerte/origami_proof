@@ -52,7 +52,7 @@ $(document).ready(function(){
       cinco.hide();
       seis.hide();
       siete.hide();
-      $('nav a').css('color', 'black');
+      $('nav a').css('color', 'yellow');
   } else if (numeroGanador == 4){
       cero.hide();
       uno.hide();
@@ -98,6 +98,5 @@ $(document).ready(function(){
       } else {
       console.log("Origami");
     };
-
 
 });
