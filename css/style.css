@@ -86,15 +86,16 @@ div input {
   right: 0;
   z-index: 1;
 }
+
 #socialMedia {
   position:fixed;
   width: 20px;
-  top:250px;
-  right: 10px;
+  top:315px;
+  right: 50px;
   z-index: 100;
 }
 #socialMedia div{
-  border: 2px solid black;
+  border: 2px solid white;
   width: 20px;
   height: 20px;
   padding-top: 3px;
@@ -103,7 +104,7 @@ div input {
   margin-bottom: 5px;
 }
 #socialMedia div:hover {
-  background-color: black;
+  background-color: white;
   cursor: pointer;
 }
 #socialMedia div a {
@@ -115,17 +116,28 @@ div input {
   cursor: pointer;
 }
 
-
+#l {
+height: 20px;
+margin-right: 10px;
+}
+#m {
+  height: 20px;
+  margin-right: 10px;
+}
+#n {
+  height: 20px;
+  margin-right: 10px;
+}
 
 /*  Contacto  */
 #map {
   width: 70%;
-  height: 500px;
-  margin: 50px auto;
+  height: 400px;
+  margin: 10px auto;
 }
 #contact_section {
-  min-height: 200px;
-  margin-top: 100px;
+  min-height: 100px;
+  margin-top: 170px;
 }
 .container{
   width: 70%;
@@ -135,20 +147,25 @@ div input {
   width: 45%;
   float: right;
   height: auto;
+
 }
 .Contactanos div {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .Contactanos i {
-  font-size: 30px;
-  color: blue;
+  font-size: 20px;
+  color: gray;
   margin-right: 20px;
+
 }
 .Contactanos i, p {
-  display: inline-block;
+  display:inline-block;
+
 }
 .Contactanos p, h2 {
-  font-family: sans-serif;
+  font-family: Corporative;
+  font-size: 10px;
+  background-color: yellow;
 }
 
 /*Portafolio*/
